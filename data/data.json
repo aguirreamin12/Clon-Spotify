@@ -1,0 +1,58 @@
+[
+        {
+            "name": "Dile",
+            "artist": "Don Omar",
+            "location": "./assets/Eternal.mp3",
+            "image": "./images/artist_image.jpeg",
+            "liked": true,
+            "id": 0
+        },
+        {
+            "name": "Never Gonna Give You Up",
+            "artist": "Rick Astely",
+            "location": "./assets/NGGYU.mp3",
+            "image": "./images/content/nggyp.jpg",
+            "liked": false,
+            "id": 1
+        },
+        {
+            "name": "Me fui de vacaciones",
+            "artist": "Bad Bunny",
+            "location": "./assets/keepingIt.mp3",
+            "image": "./images/content/keepingIt.png",
+            "liked": false,
+            "id": 2
+        },
+        {
+            "name": "Eye of the Tiger",
+            "artist": "Surviour",
+            "location": "./assets/eyeTiger.mp3",
+            "image": "./images/content/survivor.jpg",
+            "liked": false,
+            "id": 3
+        },
+        {
+            "name": "Cayó la noche RMX",
+            "artist": "La Pantera, Quevedo, Juseph ft. Bejo, Abhir Hathi, Cruz Cafuné",
+            "location": "./assets/kenny.mp3",
+            "image": "./images/content/kennyg.jpg",
+            "liked": false,
+            "id": 4
+        },
+        {
+            "name": "Te felicito",
+            "artist": "Shakira, Rauw Alejandro",
+            "location": "./assets/noctornal.mp3",
+            "image": "./images/content/noctornal.jpg",
+            "liked": true,
+            "id": 5
+        },
+        {
+            "name": "Corazón",
+            "artist": "Los Autenticos Decadentes",
+            "location": "./assets/unravel.mp3",
+            "image": "./images/content/unravel.jpg",
+            "liked": false,
+            "id": 6
+        }
+    ]
