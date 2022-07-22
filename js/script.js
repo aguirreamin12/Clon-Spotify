@@ -2,9 +2,6 @@
 // Se toman las canciones del JSON
 songs = JSON.parse(localStorage.getItem("songs"));
 
-const updateStorage = () => {
-    localStorage.setItem("songs", JSON.stringify(songs))
-}
 
 // Se obtienen los elementos
 const playerHead = document.getElementById("player");
@@ -162,7 +159,7 @@ const updateCollection = () => {
     //Usamos ForEach para pasar canciones.
     cardCollection.forEach((collection, index) => {
         //Collecion canciones me gusta
-        if(index === 0){
+        if(index == 0){
             songs.forEach((song) => {
                 if(song.liked){
                     collection.append(createCard(song))
