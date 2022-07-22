@@ -1,6 +1,6 @@
 
 // Se toman las canciones del JSON
-let songs = JSON.parse(localStorage.getItem("songs"));
+let songs = JSON.parse(getItem("songs"));
 
 const updateStorage = () => {
     localStorage.setItem("songs", JSON.stringify(songs))
